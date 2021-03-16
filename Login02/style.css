@@ -1,0 +1,63 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+    margin: 200px;
+    padding: 0;
+    font-family: sans-serif;
+    background: #B83BD4;
+  }
+  .login-box{
+    width: 280px;
+    position: absolute;
+    top: 50;
+    left: 50;
+    transform: translate(-50%, -50%);
+    color: #32046C;
+  }
+  .login-box h1{
+      float: left;
+      font-size: 40px;
+      border-bottom: 3px solid #08BBCC;
+      margin-bottom: 50px;
+      padding: 13px 0;
+  }
+  .textbox{
+      width: 100%;
+      overflow: hidden;
+      font-size: 20px;
+      padding: 8px 0;
+      margin: 8px 0;
+      border-bottom: 1px solid #08BBCC;
+  }
+  .textbox i{
+      width: 26px;
+      float: left;
+      text-align: center;
+  }
+  .textbox input{
+      border: none;
+      outline: none;
+      background: none;
+      color: #32046C;
+      font-size: 18px;
+      width: 80%;
+      float: left;
+      margin: 0 10px;
+  }
+  .textbox input[type = "text"]:focus,.textbox input[type = "password"]:focus{    
+    border-bottom: 1px solid #2ecc71;;
+}
+  .btn{
+      width: 100%;
+      background: none;
+      border: 2px solid #32046C;
+      color: #32046C;
+      padding: 5px;
+      font-size: 18px;
+      border-radius: 24px;
+      transition: 0.25s;
+      cursor: pointer;
+      margin: 12px 0;
+  }
+  .btn[type = "submit"]:hover{
+    background: #08BBCC;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wavy Div Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <h2>Water Wave Div</h2>
+                <p>Wavy Div with effect water, simple to do.
+                    Start make you disigh by css, lest time and 
+                    hands on for trainning.
+                    by: Roberto de Souza.
+                </p>
+            </div>
+        </div>
+    </div>
+    <svg>
+        <filter >                  
+            <filter id="wavy" width = "100%" height = "100%" x = "0%" y = "0%"> <feTurbulence type = "turbulence" baseFrequency = "0.2" id = "turbulence" numOctaves = "5" resultado = "turbulência" semente = "5">
+                <animate attributeName = "baseFrequency" values = "0.2;0.05;0.02" from = "0" to = "100" dur = "60s" repeatCount = "indefinite"> </animate>
+                </feTurbulence>
+                <feDisplacementMap in = "SourceGraphic" in2 = "turbulence" scale = "30" xChannelSelector = "R" yChannelSelector = "R"> </feDisplacementMap>
+                </filter>
+        </filter>
+    </svg>
+</body>
+</html>

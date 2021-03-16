@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #FFA500;
+}
+.square {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(58, 10, 102, 0.8);
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 6s linear infinite;
+}
+.square:hover span:nth-child(1) {
+  border: none;
+  background: rgba(138, 43, 226, 0.8);
+}
+.square span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(58, 10, 102, 0.8);
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 4s linear infinite;
+}
+.square:hover span:nth-child(2) {
+  border: none;
+  background: rgba(138, 43, 226, 0.8);
+}
+.square span:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(58, 10, 102, 0.8);
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 6s linear infinite;
+}
+.square:hover span:nth-child(3) {
+  border: none;
+  background: rgba(138, 43, 226, 0.8);
+}
+.square span:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(58, 10, 102, 0.8);
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 10s linear infinite;
+}
+.square:hover span:nth-child(4) {
+  border: none;
+  background: rgba(138, 43, 226, 0.8);
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.content{
+    position: relative;
+    padding: 40px 60px;
+    color: #FF00FF;
+    text-align: center;
+    transition: 0.5s;
+    z-index: 1000;
+}
+.content h2{
+    margin-bottom: 15px;
+    font-size: 34px;
+}
+.content p{
+    font-size: 20px;
+}
+.content a{
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    border: 2px solid #FF00FF;
+    color: #fff;
+    padding: 6px 18px;
+    font-weight: 600;
+    border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
+    text-decoration: none;
+}
+.content a:hover{
+    background: #fff;
+    color: #333;
+}
