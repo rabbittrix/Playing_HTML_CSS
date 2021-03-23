@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Responsive Touch Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper.min.css">
+</head>
+
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Lauryn Roberta</h3>
+                    </div>
+                    <div class="content">
+                        <p>I am the edge of the woods, the thick hand corner
+                            Working in the fields, winter and summer
+                            My chupana is covered with clay
+                            Just smoke mio paia cigarette</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Eduarda Roberta</h3>
+                    </div>
+                    <div class="content">
+                        <p>I'm a poet of brenha, I don't play the role
+                            Of argum menestrê, or wandering chant
+                            Who's been wandering around with his guitar
+                            Singing, pachola, to the length of amô</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Roberta de Souza</h3>
+                    </div>
+                    <div class="content">
+                        <p>I don't know, because I never studied
+                            Only I know my name will sign
+                            My father, poor thing! lived without copper
+                            And the poor man's thread can't study</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Virgilio Roberto</h3>
+                    </div>
+                    <div class="content">
+                        <p>My raster version, simple and dull
+                            Do not enter the square, the rich hall
+                            My verse only enters the field of the fields and the eito
+                            And sometimes, remembering happy youth
+                            I sing a sodade that lives in my chest</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Jessica Karoline</h3>
+                    </div>
+                    <div class="content">
+                        <p>Eu quero amar, amar perdidamente!
+                            Amar só por amar: Aqui… além…
+                            Mais Este e Aquele, o Outro e toda a gente
+                            Amar! Amar! E não amar ninguém!</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+
+</html>
