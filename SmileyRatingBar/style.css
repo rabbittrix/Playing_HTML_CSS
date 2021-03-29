@@ -29,6 +29,7 @@ body{
     filter: grayscale(1);
     text-align: center;
     opacity: 0;
+    transition: all 0.5s ease 0s;
 }
 .rating:hover label{
     width: 160px;
