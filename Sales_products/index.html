@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>
+                <h1>General products trade</h1>
+            </li>
+            <li>
+                <h1>Sales sistems</h1>
+            </li>
+        </ul>
+    </header>
+
+    <section>
+        <form>
+            <h3>Select your product</h3>
+            <ul>
+                <li><input type="radio" id="mozzarella" name="pizzas"><label for="mozzarella">Mozzarella</label></li>
+                <li><input type="radio" id="mixed" name="pizzas"><label for="mixed">Mixed</label></li>
+                <li><input type="radio" id="romana" name="pizzas"><label for="romana">Romana</label></li>
+            </ul>
+        </form>
+    </section>
+
+    <section>
+        <button id="sales">Sales</button><button id="reversal">Reversal</button>
+    </section>
+
+    <section id="table">
+        <table>
+            <tr>
+                <th>Flavors</th>
+                <th>Quantities</th>
+                <th>Values</th>
+            </tr>
+            <tr>
+                <td>Mozzarella</td>
+                <td id="qtdM"></td>
+                <td id="vendaM"></td>
+            </tr>
+            <tr>
+                <td>Mixed</td>
+                <td id="qtdMx"></td>
+                <td id="vendaMx"></td>
+            </tr>
+            <tr>
+                <td>Romana</td>
+                <td id="qtdR"></td>
+                <td id="vendaR"></td>
+            </tr>
+        </table>
+
+    </section>
+
+    <section>
+        <button id="exported">Spreadsheet</button>
+    </section>
+
+    <script src="tableToExcel.js"></script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
