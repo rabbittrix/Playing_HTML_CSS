@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(to right, #894EED, #1BAA84, #1B41AA);
+    padding: 80px;
+}
+
+.circulo {
+    width: 102px;
+    height: 100px;
+    margin: 50px;
+    border: 2px solid #fff;    
+    border-radius: 100px;
+    border-top: 4px solid rgba(255, 255, 255, 0.911);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.884);
+    animation: loading 4s linear infinite;
+    position: absolute;
+}
+
+.circulo::after {
+    content: " ";
+    width: 99px;
+    height: 98px;
+    border: 2px solid #fff;    
+    border-radius: 100px;
+    border-top: 4px solid rgba(255, 255, 255, 0.911);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.884);
+    animation: loading 5s linear infinite;
+    position: absolute;
+}
+
+@keyframes loading {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.imgBx{
+    padding: 15px;
+    animation: img 15s linear infinite;
+    position: absolute;
+}
+
+@keyframes img {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.logo{
+    padding: 50px;
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}

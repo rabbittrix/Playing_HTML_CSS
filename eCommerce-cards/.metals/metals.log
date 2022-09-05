@@ -1,0 +1,7 @@
+[0m2021.07.06 00:28:10 INFO  Started: Metals version 0.10.4 in workspace 'D:\CURSOR E TREINAMENTO\HTML-Models\eCommerce-cards' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.06 00:28:14 INFO  time: initialize in 3.27s[0m
+[0m2021.07.06 00:28:14 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.06 00:28:14 WARN  no build tool detected in workspace 'D:\CURSOR E TREINAMENTO\HTML-Models\eCommerce-cards'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+jul 06, 2021 2:14:59 DA MANHÃ org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.07.06 02:15:11 INFO  shutting down Metals[0m
